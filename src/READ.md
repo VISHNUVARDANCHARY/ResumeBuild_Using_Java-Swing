@@ -1,6 +1,3 @@
-# ResumeBuild_Using_Java-Swing
- Resume building with java swing which provides option to select the templet and give output as PDF on Filechoose.
-
 # Java Swing Resume Builder Application
 
 ## Overview
@@ -12,6 +9,23 @@ This project is a Java-based Resume Builder application developed using Java Swi
 - **Dynamic Fields:** Users can add multiple entries for education and other sections.
 - **PDF Generation:** Generates a well-formatted PDF resume based on the user input.
 
+## Project Structure
+	/ResumeBuilder
+	├── src/
+	│ ├── main/
+	│ │ ├── java/
+	│ │ │ ├── com/
+	│ │ │ │ ├── resumebuilder/
+	│ │ │ │ │ ├── MainResume.java
+	│ │ │ │ │ ├── Main.java
+	│ │ │ │ │ ├── Education.java
+	│ │ │ │ │ ├── TechnicalSkills.java
+	│ │ │ │ │ ├── TechnicalSkillsDetails.java
+	│ │ │ │ │ ├── GeneratePDF.java
+	├── README.md
+	├── build.gradle
+	├── settings.gradle
+	
 
 ## How to Run
 1. **Clone the repository:**
@@ -48,4 +62,4 @@ This project is licensed under the MIT License.
 ## Contact
 If you have any questions or suggestions, please reach out to me at [your-email@example.com].
 
-
+	
